@@ -7,13 +7,28 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div style="height: 150px; width: 700px; margin-left: 300px; background-color: #ce7171;">
         </div>
         <div style="margin-left: 300px; width: 700px; height: 20px;"></div>
-        <div style="margin-left: 300px; width: 700px; height: 30px; background-color: c#ce7171"></div>
+        <div style="margin-left: 300px; width: 700px; height: 30px; background-color: #ce7171">
+            <table class="auto-style1">
+                <tr>
+                    <td><a href="AnaSayfa.aspx">ANASAYFA</a></td>
+                    <td><a href="GununYemegi.aspx">GÜNÜN YEMEĞİ</a></td>
+                    <td><a href="TarifOner.aspx">TARİF ÖNER</a></td>
+                    <td><a href="Hakkimizda.aspx">HAKKIMIZDA</a></td>
+                    <td><a href="iletisim.aspx">İLETİŞİM</a></td>
+                </tr>
+            </table>
+        </div>
         <div style="margin-left: 300px; width: 700px; height: 20px;"></div>
 
         <div style="margin-left: 300px; width: 200px; height: 200px; background-color: #ce7171">
