@@ -106,6 +106,7 @@
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="iletisim.aspx" />
+    <Content Include="resimler\indir.jpeg" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -164,6 +165,7 @@
     <Content Include="Views\web.config" />
     <Content Include="Kullanici.Master" />
     <None Include="packages.config" />
+    <Content Include="resimler\d7736cf5b0a6adec94ea190e5af8dd62-768x800.jpg.webp" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
