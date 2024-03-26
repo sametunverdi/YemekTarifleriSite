@@ -32,7 +32,7 @@
         <tr>
             <td class="auto-style3"><strong>Yapılış:</strong></td>
             <td>
-                <asp:TextBox ID="TxyYapilis" runat="server" Height="150px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="TxtYapilis" runat="server" Height="150px" TextMode="MultiLine" Width="250px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -44,7 +44,7 @@
         <tr>
             <td class="auto-style3"><strong>Tarif Öneren:</strong></td>
             <td class="auto-style2">
-                <asp:TextBox ID="TxyTarifOneren" runat="server" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="TxtTarifOneren" runat="server" Width="250px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -56,7 +56,7 @@
         <tr>
             <td class="auto-style3">&nbsp;</td>
             <td class="auto-style2">
-                <asp:Button ID="BtnTarifOner" runat="server" Height="40px" Text="Tarif Öner" Width="150px" />
+                <asp:Button ID="BtnTarifOner" runat="server" Height="40px" Text="Tarif Öner" Width="150px" OnClick="BtnTarifOner_Click" />
             </td>
         </tr>
     </table>

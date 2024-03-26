@@ -33,13 +33,13 @@ namespace YemekTarifleriSite
         protected global::System.Web.UI.WebControls.TextBox TxtMalzemeler;
 
         /// <summary>
-        /// TxyYapilis control.
+        /// TxtYapilis control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxyYapilis;
+        protected global::System.Web.UI.WebControls.TextBox TxtYapilis;
 
         /// <summary>
         /// FileUpload1 control.
@@ -51,13 +51,13 @@ namespace YemekTarifleriSite
         protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
 
         /// <summary>
-        /// TxyTarifOneren control.
+        /// TxtTarifOneren control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxyTarifOneren;
+        protected global::System.Web.UI.WebControls.TextBox TxtTarifOneren;
 
         /// <summary>
         /// TxtMailAdresi control.
