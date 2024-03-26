@@ -13,21 +13,21 @@
         .auto-style5 {
             font-size: large;
         }
-        .auto-style6 {
-            font-size: x-large;
-            text-decoration: underline;
-            background-color: #FF5050;
-        }
-        .auto-style7 {
-            text-align: right;
-        }
-        .auto-style8 {
-            text-align: right;
-            height: 29px;
-        }
-        .auto-style9 {
-            height: 29px;
-        }
+    .auto-style6 {
+        font-size: x-large;
+        text-decoration: underline;
+        background-color: #FF5050;
+    }
+    .auto-style7 {
+        text-align: right;
+    }
+    .auto-style8 {
+        text-align: right;
+        height: 29px;
+    }
+    .auto-style9 {
+        height: 29px;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
@@ -89,5 +89,5 @@
                 <td>&nbsp;</td>
             </tr>
         </table>
-    </asp:Panel>
+</asp:Panel>
 </asp:Content>
