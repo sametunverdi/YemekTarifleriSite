@@ -63,19 +63,19 @@
             <tr>
                 <td class="auto-style7">Ad Soyad:</td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server" Height="20px" Width="250px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Height="20px" Width="250px" CssClass="tb5"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style7">Mail:</td>
                 <td>
-                    <asp:TextBox ID="TextBox2" runat="server" Height="20px" Width="250px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" Height="20px" Width="250px" CssClass="tb5"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style8">Yorumunuz:</td>
                 <td class="auto-style9">
-                    <asp:TextBox ID="TextBox3" runat="server" Height="100px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" Height="100px" TextMode="MultiLine" Width="250px" CssClass="tb5"></asp:TextBox>
                 </td>
             </tr>
             <tr>
