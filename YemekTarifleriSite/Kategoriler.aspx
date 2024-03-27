@@ -17,6 +17,9 @@
         .auto-style7 {
             width: 56px;
         }
+        .auto-style8 {
+            font-size: medium;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
@@ -29,7 +32,7 @@
                 <td><strong>
                     <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Height="30px" OnClick="Button2_Click" Text="-" Width="30px" />
                     </strong></td>
-                <td>KATEGORİ LİSTESİ</td>
+                <td><strong>KATEGORİ LİSTESİ</strong></td>
             </tr>
         </table>
     </asp:Panel>
@@ -62,7 +65,7 @@
                     <td class="auto-style7"><strong>
                         <asp:Button ID="Button4" runat="server" CssClass="auto-style6" Height="30px"  Text="-" Width="30px" OnClick="Button4_Click" />
                         </strong></td>
-                    <td>KATEGORİ EKLEME</td>
+                    <td class="auto-style8"><strong>KATEGORİ EKLEME</strong></td>
                 </tr>
             </table>
         </asp:Panel>
