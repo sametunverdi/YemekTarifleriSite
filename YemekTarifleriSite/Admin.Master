@@ -35,7 +35,7 @@
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td><strong>KATEGORİLER</strong></td>
+                        <td><strong><a href="Kategoriler.aspx">KATEGORİLER</a></strong></td>
                     </tr>
                     <tr>
                         <td><strong>YEMEKLER</strong></td>
