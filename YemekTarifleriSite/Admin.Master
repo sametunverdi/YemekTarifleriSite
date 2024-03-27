@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="YemekTarifleriSite.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Kullanici.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="height: 150px; width: 700px; margin-left: 300px; background-color: #ce7171;">
+        </div>
+        <div style="margin-left: 300px; width: 700px; height: 20px;"></div>
+        <div style="margin-left: 300px; width: 700px; height: 20px;"></div>
+        <div style="margin-left: 300px; width: 700px; height: 300px;">
+
+            <div style="width: 200px; float:left; height: auto; background-color:#ce7171">
+                <table class="auto-style1">
+                    <tr>
+                        <td class="auto-style2"><strong>MENÜLER</strong></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td><strong>KATEGORİLER</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>YEMEKLER</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>YORUMLAR</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>MESAJLAR</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>GÜNÜN YEMEĞİ</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>ÖNERİLER</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>HAKKIMIZDA</strong></td>
+                    </tr>
+                </table>
+                <br />
+            </div>
+            <div style="width: 450px; float:left; height:auto; background-color:#ce7171; margin-left:50px;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">                     
+                </asp:ContentPlaceHolder>
+
+            </div>
+        </div>
+
+        
+
+
+
+    </form>
+</body>
+</html>
