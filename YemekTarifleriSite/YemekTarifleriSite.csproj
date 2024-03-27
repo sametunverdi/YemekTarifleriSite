@@ -108,6 +108,7 @@
     <Content Include="iletisim.aspx" />
     <Content Include="Kullanici.css" />
     <Content Include="resimler\indir.jpeg" />
+    <Content Include="resimler\terim.jpg" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
     <Content Include="YemekDetay.aspx" />
