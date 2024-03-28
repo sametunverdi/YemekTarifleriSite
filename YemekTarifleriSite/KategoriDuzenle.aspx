@@ -36,7 +36,7 @@
         <tr>
             <td>&nbsp;</td>
             <td><strong>
-                <asp:Button ID="Button1" runat="server" CssClass="auto-style3" Text="GÜNCELLE" />
+                <asp:Button ID="Button1" runat="server" CssClass="auto-style3" OnClick="Button1_Click" Text="GÜNCELLE" />
                 </strong></td>
         </tr>
         <tr>
