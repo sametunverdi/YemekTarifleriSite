@@ -85,13 +85,13 @@
             <tr>
                 <td>KATEGORİ İCON:</td>
                 <td>
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    <asp:FileUpload ID="FileUpload1" runat="server" />
                 </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td><strong>
-                    <asp:Button ID="Button5" runat="server" CssClass="auto-style6" Text="EKLE" Width="150px" />
+                    <asp:Button ID="BtnEkle" runat="server" CssClass="auto-style6" Text="EKLE" Width="150px" OnClick="BtnEkle_Click" />
                     </strong></td>
             </tr>
             <tr>
