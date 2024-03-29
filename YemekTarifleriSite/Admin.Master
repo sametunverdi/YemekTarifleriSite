@@ -38,7 +38,7 @@
                         <td><strong><a href="Kategoriler.aspx">KATEGORİLER</a></strong></td>
                     </tr>
                     <tr>
-                        <td><strong>YEMEKLER</strong></td>
+                        <td><strong><a href="Yemekler.aspx">YEMEKLER</a></strong></td>
                     </tr>
                     <tr>
                         <td><strong>YORUMLAR</strong></td>
