@@ -106,7 +106,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td><strong>
-                    <asp:Button ID="BtnEkle0" runat="server" CssClass="auto-style6" Text="EKLE" Width="150px" />
+                    <asp:Button ID="BtnEkle0" runat="server" CssClass="auto-style6" OnClick="BtnEkle0_Click" Text="EKLE" Width="150px" />
                     </strong></td>
             </tr>
             <tr>
