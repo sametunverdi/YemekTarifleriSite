@@ -79,22 +79,39 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>KATEGORİ AD:</td>
+                <td>YEMEK AD:</td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Width="200px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td>KATEGORİ İCON:</td>
+                <td>MALZEMELER:</td>
                 <td>
-                    <asp:FileUpload ID="FileUpload1" runat="server" />
+                    <asp:TextBox ID="TextBox2" runat="server" Height="150px" TextMode="MultiLine" Width="200px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>YEMEK TARİFİ:</td>
+                <td>
+                    <asp:TextBox ID="TextBox3" runat="server" Height="150px" TextMode="MultiLine" Width="200px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>KATEGORİLER:</td>
+                <td>
+                    <asp:DropDownList ID="DropDownList1" runat="server">
+                    </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td><strong>
-                    <asp:Button ID="BtnEkle" runat="server" CssClass="auto-style6" Text="EKLE" Width="150px"  />
+                    <asp:Button ID="BtnEkle0" runat="server" CssClass="auto-style6" Text="EKLE" Width="150px" />
                     </strong></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
