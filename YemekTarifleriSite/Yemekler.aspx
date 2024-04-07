@@ -50,7 +50,7 @@
                             <a href="Kategoriler.aspx?Kategoriid=<%#Eval("Kategoriid")%>&islem=sil"><asp:Image ID="Image1" runat="server" Height="30px" ImageUrl="~/icon/delete.png" Width="30px" /></a>
                         </td>
                         <td class="auto-style4">
-                            <a href="KategoriDuzenle.aspx?Kategoriid=<%#Eval("Kategoriid")%>"><asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/icon/update.png" Width="30px" /></a>
+                            <a href="YemekDuzenle.aspx?Yemekid=<%#Eval("yemekid")%>"><asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/icon/update.png" Width="30px" /></a>
                         </td>
                     </tr>
                 </table>
@@ -93,7 +93,7 @@
             <tr>
                 <td>YEMEK TARİFİ:</td>
                 <td>
-                    <asp:TextBox ID="TextBox3" runat="server" Height="150px" TextMode="MultiLine" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox3" runat="server" TextMode="MultiLine" Width="200px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -106,7 +106,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td><strong>
-                    <asp:Button ID="BtnEkle0" runat="server" CssClass="auto-style6" OnClick="BtnEkle0_Click" Text="EKLE" Width="150px" />
+                    <asp:Button ID="BtnEkle0" runat="server" CssClass="auto-style6" Text="EKLE" Width="150px" />
                     </strong></td>
             </tr>
             <tr>
