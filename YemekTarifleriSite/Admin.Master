@@ -44,7 +44,7 @@
                         <td><strong><a href ="Yorumlar.aspx">YORUMLAR</a></strong></td>
                     </tr>
                     <tr>
-                        <td><strong>MESAJLAR</strong></td>
+                        <td><strong><a href ="Mesajlar.aspx">MESAJLAR</a></strong></td>
                     </tr>
                     <tr>
                         <td><strong>GÜNÜN YEMEĞİ</strong></td>
