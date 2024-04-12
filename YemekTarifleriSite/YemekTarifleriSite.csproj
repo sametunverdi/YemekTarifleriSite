@@ -105,6 +105,7 @@
     <Content Include="AnaSayfa.aspx" />
     <Content Include="Global.asax" />
     <Content Include="GununYemegi.aspx" />
+    <Content Include="GununYemegiAdmin.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="icon\delete.png" />
     <Content Include="icon\update.png" />
@@ -157,6 +158,13 @@
     </Compile>
     <Compile Include="GununYemegi.aspx.designer.cs">
       <DependentUpon>GununYemegi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.designer.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Hakkimizda.aspx.cs">
       <DependentUpon>Hakkimizda.aspx</DependentUpon>

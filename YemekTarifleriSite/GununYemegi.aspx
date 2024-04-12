@@ -17,17 +17,17 @@
                             <asp:DataList ID="DataList2" runat="server">
                                 <ItemTemplate>
                                     <br />
-                                    <strong><span class="auto-style2">Yemek Adı:</span><asp:Label ID="Label8" runat="server" CssClass="auto-style2" Text='<%# Eval("GununYemegiAd") %>'></asp:Label>
+                                    <strong><span class="auto-style2">Yemek Adı:</span><asp:Label ID="Label8" runat="server" CssClass="auto-style2" Text='<%# Eval("YemekAd") %>'></asp:Label>
                                     <br />
-                                    </strong><span class="auto-style2"><strong>Malzemeler:</strong></span><strong><asp:Label ID="Label9" runat="server" Text='<%# Eval("GununYemegiMalzeme") %>'></asp:Label>
+                                    </strong><span class="auto-style2"><strong>Malzemeler:</strong></span><strong><asp:Label ID="Label9" runat="server" Text='<%# Eval("YemekMalzeme") %>'></asp:Label>
                                     <br />
-                                    <span class="auto-style2">Tarif:</span><asp:Label ID="Label10" runat="server" Text='<%# Eval("GununYemegiTarif") %>'></asp:Label>
+                                    <span class="auto-style2">Tarif:</span><asp:Label ID="Label10" runat="server" Text='<%# Eval("YemekTarif") %>'></asp:Label>
                                     <br />
                                     <asp:Image ID="Image2" runat="server" Height="101px" ImageUrl="~/resimler/indir.jpeg" Width="399px" />
                                     <br />
-                                    Puan:<asp:Label ID="Label11" runat="server" Text='<%# Eval("GununYemegiPuan") %>'></asp:Label>
+                                    Puan:<asp:Label ID="Label11" runat="server" Text='<%# Eval("YemekPuan") %>'></asp:Label>
                                     <br />
-                                    Tarih:<asp:Label ID="Label12" runat="server" Text='<%# Eval("GununYemegiTarih") %>'></asp:Label>
+                                    Tarih:<asp:Label ID="Label12" runat="server" Text='<%# Eval("YemekTarih") %>'></asp:Label>
                                     </strong>
                                 </ItemTemplate>
                             </asp:DataList>
