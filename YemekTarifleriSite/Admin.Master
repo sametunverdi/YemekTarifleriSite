@@ -50,7 +50,7 @@
                         <td><strong><a href="GununYemegiAdmin.aspx">GÜNÜN YEMEĞİ</a></strong></td>
                     </tr>
                     <tr>
-                        <td><strong>ÖNERİLER</strong></td>
+                        <td><strong><a href ="Tarifler.aspx">TARİFLER</a></strong></td>
                     </tr>
                     <tr>
                         <td><strong>HAKKIMIZDA</strong></td>
