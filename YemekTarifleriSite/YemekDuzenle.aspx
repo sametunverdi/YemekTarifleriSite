@@ -40,6 +40,12 @@
         </tr>
         <tr>
             <td>&nbsp;</td>
+            <td>
+                <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Günün Yemeğini Seç" />
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
     </table>
