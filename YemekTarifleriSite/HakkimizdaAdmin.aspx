@@ -13,6 +13,9 @@
         .auto-style7 {
         text-align: center;
     }
+        .auto-style8 {
+            font-weight: bold;
+        }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
@@ -38,7 +41,9 @@
             </tr>
             <tr>
                 <td class="auto-style7">
-                    <asp:Button ID="Button3" runat="server" Text="Güncelle" OnClick="Button3_Click" />
+                    <strong>
+                    <asp:Button ID="Button3" runat="server" CssClass="auto-style8" OnClick="Button3_Click" Text="Güncelle" />
+                    </strong>
                 </td>
             </tr>
             <tr>
