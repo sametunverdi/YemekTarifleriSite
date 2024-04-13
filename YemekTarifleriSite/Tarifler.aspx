@@ -26,7 +26,7 @@
                 <td><strong>
                     <asp:Button ID="Button2" runat="server" CssClass="auto-style6" Height="30px"  Text="-" Width="30px" OnClick="Button2_Click"  />
                     </strong></td>
-                <td>TARİF LİSTESİ</td>
+                <td>ONAYSIZ TARİF LİSTESİ</td>
             </tr>
         </table>
     </asp:Panel>
@@ -45,5 +45,35 @@
                 </table>
             </ItemTemplate>
         </asp:DataList>
+            <asp:Panel ID="Panel5" runat="server" CssClass="auto-style3">
+                <table class="auto-style1">
+                    <tr>
+                        <td><strong>
+                            <asp:Button ID="Button3" runat="server" CssClass="auto-style6" Height="30px"  Text="+" Width="30px" OnClick="Button3_Click" />
+                            </strong></td>
+                        <td><strong>
+                            <asp:Button ID="Button4" runat="server" CssClass="auto-style6" Height="30px"  Text="-" Width="30px" OnClick="Button4_Click" />
+                            </strong></td>
+                        <td>ONAYSIZ TARİF LİSTESİ</td>
+                    </tr>
+                </table>
+            </asp:Panel>
     </asp:Panel>
+
+    <asp:DataList ID="DataList2" runat="server" Width="444px">
+    <ItemTemplate>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style5"><strong>
+                    <asp:Label ID="Label2" runat="server" CssClass="auto-style2" Text='<%# Eval("TarifAd") %>'></asp:Label>
+                    </strong></td>
+                <td class="auto-style7">
+                    <a href ="TarifOnerDetay.aspx?Tarifid=<%#Eval("Tarifid") %>"><asp:Image ID="Image4" runat="server" Height="30px" ImageUrl="~/icon/update.png" Width="30px" /><a/>
+                    </a></td>
+            </tr>
+        </table>
+    </ItemTemplate>
+</asp:DataList>
+
+
 </asp:Content>
