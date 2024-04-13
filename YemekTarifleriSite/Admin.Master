@@ -53,7 +53,7 @@
                         <td><strong><a href ="Tarifler.aspx">TARİFLER</a></strong></td>
                     </tr>
                     <tr>
-                        <td><strong>HAKKIMIZDA</strong></td>
+                        <td><strong><a href ="HakkimizdaAdmin.aspx">HAKKIMIZDA</a></strong></td>
                     </tr>
                 </table>
                 <br />
